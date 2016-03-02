@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC477C611C86DB1A0085F3DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC477C601C86DB1A0085F3DB /* main.m */; };
+		FC477C641C86DB1A0085F3DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC477C631C86DB1A0085F3DB /* AppDelegate.m */; };
+		FC477C671C86DB1A0085F3DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC477C661C86DB1A0085F3DB /* ViewController.m */; };
+		FC477C6A1C86DB1A0085F3DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC477C681C86DB1A0085F3DB /* Main.storyboard */; };
+		FC477C6C1C86DB1A0085F3DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC477C6B1C86DB1A0085F3DB /* Assets.xcassets */; };
+		FC477C6F1C86DB1A0085F3DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC477C6D1C86DB1A0085F3DB /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC477C5C1C86DB1A0085F3DB /* 糗事百科.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "糗事百科.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC477C601C86DB1A0085F3DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC477C621C86DB1A0085F3DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC477C631C86DB1A0085F3DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC477C651C86DB1A0085F3DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC477C661C86DB1A0085F3DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC477C691C86DB1A0085F3DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC477C6B1C86DB1A0085F3DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC477C6E1C86DB1A0085F3DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC477C701C86DB1A0085F3DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC477C591C86DB1A0085F3DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC477C531C86DB1A0085F3DB = {
+			isa = PBXGroup;
+			children = (
+				FC477C5E1C86DB1A0085F3DB /* 糗事百科 */,
+				FC477C5D1C86DB1A0085F3DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC477C5D1C86DB1A0085F3DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC477C5C1C86DB1A0085F3DB /* 糗事百科.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC477C5E1C86DB1A0085F3DB /* 糗事百科 */ = {
+			isa = PBXGroup;
+			children = (
+				FC477C621C86DB1A0085F3DB /* AppDelegate.h */,
+				FC477C631C86DB1A0085F3DB /* AppDelegate.m */,
+				FC477C651C86DB1A0085F3DB /* ViewController.h */,
+				FC477C661C86DB1A0085F3DB /* ViewController.m */,
+				FC477C681C86DB1A0085F3DB /* Main.storyboard */,
+				FC477C6B1C86DB1A0085F3DB /* Assets.xcassets */,
+				FC477C6D1C86DB1A0085F3DB /* LaunchScreen.storyboard */,
+				FC477C701C86DB1A0085F3DB /* Info.plist */,
+				FC477C5F1C86DB1A0085F3DB /* Supporting Files */,
+			);
+			path = "糗事百科";
+			sourceTree = "<group>";
+		};
+		FC477C5F1C86DB1A0085F3DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC477C601C86DB1A0085F3DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC477C5B1C86DB1A0085F3DB /* 糗事百科 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC477C731C86DB1A0085F3DB /* Build configuration list for PBXNativeTarget "糗事百科" */;
+			buildPhases = (
+				FC477C581C86DB1A0085F3DB /* Sources */,
+				FC477C591C86DB1A0085F3DB /* Frameworks */,
+				FC477C5A1C86DB1A0085F3DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "糗事百科";
+			productName = "糗事百科";
+			productReference = FC477C5C1C86DB1A0085F3DB /* 糗事百科.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC477C541C86DB1A0085F3DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "邵旭东";
+				TargetAttributes = {
+					FC477C5B1C86DB1A0085F3DB = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = FC477C571C86DB1A0085F3DB /* Build configuration list for PBXProject "糗事百科" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC477C531C86DB1A0085F3DB;
+			productRefGroup = FC477C5D1C86DB1A0085F3DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC477C5B1C86DB1A0085F3DB /* 糗事百科 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC477C5A1C86DB1A0085F3DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC477C6F1C86DB1A0085F3DB /* LaunchScreen.storyboard in Resources */,
+				FC477C6C1C86DB1A0085F3DB /* Assets.xcassets in Resources */,
+				FC477C6A1C86DB1A0085F3DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC477C581C86DB1A0085F3DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC477C671C86DB1A0085F3DB /* ViewController.m in Sources */,
+				FC477C641C86DB1A0085F3DB /* AppDelegate.m in Sources */,
+				FC477C611C86DB1A0085F3DB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC477C681C86DB1A0085F3DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC477C691C86DB1A0085F3DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC477C6D1C86DB1A0085F3DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC477C6E1C86DB1A0085F3DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC477C711C86DB1A0085F3DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC477C721C86DB1A0085F3DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC477C741C86DB1A0085F3DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "糗事百科/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sxd920410.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC477C751C86DB1A0085F3DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "糗事百科/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sxd920410.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC477C571C86DB1A0085F3DB /* Build configuration list for PBXProject "糗事百科" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC477C711C86DB1A0085F3DB /* Debug */,
+				FC477C721C86DB1A0085F3DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC477C731C86DB1A0085F3DB /* Build configuration list for PBXNativeTarget "糗事百科" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC477C741C86DB1A0085F3DB /* Debug */,
+				FC477C751C86DB1A0085F3DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC477C541C86DB1A0085F3DB /* Project object */;
+}
